@@ -1,0 +1,23 @@
+# Arquivos com segredos e credenciais locais (NUNCA SUBIR)
+.env
+*.env
+.streamlit/secrets.toml
+
+# Python cache e compilação
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Dumps e scripts pontuais de teste/debug local
+IL-*.json
+issue_*.json
+test_*.py
+debug_*.py
+search_*.py
+find_fields.py
+get_impediments.py
+print_markdown.py
+verify_mapping.py
+scratch/
